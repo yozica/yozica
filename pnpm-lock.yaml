@@ -15,7 +15,7 @@ importers:
   packages/test-main:
     dependencies:
       '@yozica/test-share':
-        specifier: 'workspace: *'
+        specifier: workspace:^
         version: link:../test-share
 
   packages/test-share: {}
