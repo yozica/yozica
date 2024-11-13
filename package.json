@@ -1,0 +1,19 @@
+{
+  "name": "yozica",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=18.12"
+  },
+  "keywords": [],
+  "author": "yozica",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.9"
+  }
+}
