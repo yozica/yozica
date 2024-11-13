@@ -1,3 +1,5 @@
 import { logName } from "@yozica/test-share";
 
-logName("main");
+export function logMyName() {
+  logMyName("test-main");
+}
